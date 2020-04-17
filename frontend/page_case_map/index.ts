@@ -26,9 +26,7 @@ function makeMap(caseMap: HTMLElement, regions: Regions, geoData: any) {
   let zmin = -3.5;
 
   // invert the binary tree
-  Object.keys(regions).map(key => {
-    let region: Region = regions[key];
-
+  regions.map(region => {
     let current = region.currentInfected;
     if (!current) return;
 
