@@ -44,7 +44,7 @@ export function makeLayout(bounds?: Bounds): Partial<Plotly.Layout> {
       linecolor: "#fff"
     },
     yaxis: {
-      title: "Active infections (% of population)",
+      title: "Active spreaders (% of population)",
       titlefont: {
         family: "DM Sans, sans-serif",
         size: 16,
